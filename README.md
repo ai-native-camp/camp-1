@@ -17,10 +17,10 @@ npx skills add ai-native-camp/camp-1 --yes
 npx skills add ai-native-camp/camp-1 --skill day1-onboarding --yes
 
 # Day 2만 설치
-npx skills add ai-native-camp/camp-1 --skill day2-mcp-skills --yes
+npx skills add ai-native-camp/camp-1 --skill day2-create-context-sync-skill --yes
 ```
 
-> 설치 후 Claude Code에서 `/day1-onboarding` 또는 `/day2-mcp-skills`로 시작하세요.
+> 설치 후 Claude Code에서 `/day1-onboarding` 또는 `/day2-create-context-sync-skill`로 시작하세요.
 
 ## Skills as Curriculum
 
@@ -30,8 +30,9 @@ npx skills add ai-native-camp/camp-1 --skill day2-mcp-skills --yes
 
 ```
 .claude/skills/
-├── day1-onboarding/    # 설치 + 7개 핵심 기능
-├── day2-mcp-skills/    # MCP 연결 + 정보 수집 스킬 만들기
+├── day1-onboarding/                  # 설치 + 7개 핵심 기능
+├── day2-supplement-mcp/                        # MCP 딥다이브 (개념 ~ 서버 설치 ~ Plugin)
+├── day2-create-context-sync-skill/   # 나만의 Context Sync 스킬 만들기
 ├── day3-clarify/       # 요구사항 명확화
 ├── day4-wrap/          # 마무리 + subagent
 ├── ...
@@ -45,7 +46,8 @@ Skill을 만드는 법을 Skill로 배운다. 이것이 이 캠프의 방식이�
 | Day | Skill | 주제 |
 |-----|-------|------|
 | 1 | `day1-onboarding` | Claude Code 설치 + 7개 핵심 기능 (CLAUDE.md, Skill, MCP, Subagent, Agent Teams, Hook, Plugin) |
-| 2 | `day2-mcp-skills` | MCP로 세상과 연결하기 — Slack, Gmail, Calendar, Notion, Linear을 연결하고 정보를 모으는 스킬 만들기 |
+| 2 | `day2-supplement-mcp` | MCP 딥다이브 — 개념 이해, 서버 설치, /mcp 명령어, 인기 서버, Plugin MCP |
+| 2 | `day2-create-context-sync-skill` | 나만의 Context Sync 스킬 만들기 — 도구 선택 → MCP/API 연결 → 병렬 수집 → 완성 |
 | 3 | *coming soon* | 요구사항 명확화 |
 | 4 | *coming soon* | 마무리 + subagent |
 | ... | | |

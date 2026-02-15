@@ -1,0 +1,4 @@
+.mcp.local.json
+.DS_Store
+scripts/.cache/
+**/.cache/
